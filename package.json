@@ -1,0 +1,27 @@
+{
+  "name": "clan.nom_nom_nom",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "server": "node server.js",
+    "client": "node scripts/start-client.js",
+    "start": "concurrently \"nodemon server.js\" \"npm run client\"",
+    "build": "node scripts/build.js",
+    "installDeps": "yarn && cd client && yarn"
+  },
+  "author": "Craig Christensen",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^3.5.0",
+    "eslint": "^4.19.1",
+    "nodemon": "^1.11.0"
+  },
+  "dependencies": {
+    "axios": "^0.17.1",
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "mongoose": "^4.13.3",
+    "morgan": "^1.9.0"
+  }
+}
