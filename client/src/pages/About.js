@@ -19,7 +19,7 @@ const About = () => (
       <Row>
         <Col size="md-12">
           <p>
-AncestyDotNom is a place where families can share and preserve recipes.  Remember Grandma's Thanksgiving relish?  Let's preserve that recipe here.  Your cousin remembers there being more orange zest?  She can do that because 'a little too much' has always been her defining trait, right?  Your Uncle Bob has been bragging about the best damn grilled chicken ever?  Let's share.  Who remembers Aunt Betty's Jello salad with shaved carrots, cottage cheese and sliced green olives?  Should we make that recipe available for future generations?  Maaaybe....  You decide because this is your family cookbook!
+AncestyDotNom is a place where families can share and preserve recipes.  Remember Grandma's Thanksgiving relish?  Let's preserve that recipe here.  Your cousin remembers there being more orange zest in it?  She can do that because 'a little too much' has always been her defining trait, right?  Your Uncle Bob has been bragging about the best damn grilled chicken ever?  Let's share.  Who remembers Aunt Betty's Jello salad with shaved carrots, cottage cheese and sliced green olives?  Should we make that recipe available for future generations?  Maaaybe....  You decide because this is your family cookbook!
           </p>
         </Col>
       </Row>

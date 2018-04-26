@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-import API from "../utils/API";
-import Container from "../components/Container";
+// import API from "../utils/API";
+// import Container from "../components/Container";
 import Hero from "../components/Hero";
 // import SearchForm from "../components/SearchForm";
 // import SearchResults from "../components/SearchResults";

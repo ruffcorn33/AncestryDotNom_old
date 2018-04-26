@@ -5,7 +5,7 @@ const mongoose = require('mongoose');
 const routes = require("./routes");
 const logger = require('morgan');
 const app = express();
-const PORT = process.env.PORT || 3001;
+const PORT = process.env.PORT || 3000;
 
 // Express configuration
 app.use(logger('dev'));
@@ -22,7 +22,7 @@ mongoose.Promise = global.Promise;
 
 // MongoDB configuration
 mongoose.connect(
-  process.env.MONGODB_URI || "mongodb://localhost/clannomnom",
+  process.env.MONGODB_URI || "mongodb://localhost/ancestrydotnom",
 );
 
 const db = mongoose.connection;
